@@ -4,10 +4,7 @@ from binance.client import Client
 
 
 load_dotenv()
-api_key = os.getenv("BINANCE_API_KEY")
-secret = os.getenv("BINANCE_SECRET_KEY")
-print("KEY:", api_key)
-print("SECRET:", secret)
+
 class BinanceClient:
 
 
